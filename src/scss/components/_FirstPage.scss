@@ -1,14 +1,42 @@
 .FP{
     display: flex;
     flex-direction: column;
+    position: relative;
     padding-bottom: 20px;
     padding-top: 60px;
     color: white;
     font-size: 38px;
     background-color: rgb(255, 65, 65);
-    height: 815px;
+    height: 896px;
     width: 100%;
     margin: 0;
     padding-left: 51px;
     justify-content: space-between;
+    h1{
+        margin: 0;
+        padding: 0;
+        top: 20%;
+        position: absolute;
+    }
+    .ig1{
+        position: absolute;
+        top:40%;
+        right: 40%;
+        z-index: 2;
+    }
+    .ig2{
+        position: absolute;
+        top:50%;
+        right: 20%;
+        z-index: 1;
+    }
+    .logoWhite{
+        background-color: white;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

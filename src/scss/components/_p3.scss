@@ -25,6 +25,20 @@
             font-size: 52px;
     }
     }
-    
-    
+    .cont{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        margin-left: 32px;
+        gap: 32px
+    }
+    .More{
+        color: red;
+        text-align: right;
+        margin-right: 32px;
+        h4{
+            font-size: 32px;
+        }
+    }
 }
